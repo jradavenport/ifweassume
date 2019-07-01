@@ -1,6 +1,7 @@
 # The MIT License (MIT)
 
-Copyright (c) 2017 Paul Le
+Copyright (c) 2017 Paul Le - Theme
+2019 James R. A. Davenport - Content
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
