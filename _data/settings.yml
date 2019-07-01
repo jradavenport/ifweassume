@@ -18,12 +18,12 @@ menu:
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
 - {icon: 'twitter', link: 'https://twitter.com/jradavenport'}
-- {icon: 'youtube', link: 'http://youtube.com/james-davenport'}
-- {icon: 'github', link: https://github.com/jradavenport}
+- {icon: 'fab fa-youtube-play', link: 'http://youtube.com/james-davenport'}
+- {icon: 'github', link: 'https://github.com/jradavenport'}
 - {icon: 'instagram', link: 'https://instagram.com/jradavenport'}
-# - {icon: 'envelope', link: 'mailto:l.nguyen.paul@gmail.com'}
 - {icon: 'rss-square', link: 'feed.xml'}
 # - {icon: 'rss-square', link: 'rss-feed.xml'}
+# - {icon: 'envelope', link: 'mailto:l.nguyen.paul@gmail.com'}
 
 # Customize site text
 pagination:
