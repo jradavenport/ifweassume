@@ -15,7 +15,7 @@ sass:
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "If We Assume"
-description:	       "A website about data, science, and funny questions."
+description:	       "A website about data, astronomy, and funny questions."
 author:              "James Davenport, PhD"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
