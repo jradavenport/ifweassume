@@ -15,7 +15,7 @@ My own [professional website](http://jradavenport.github.io), as well as [smalle
 
 The Jekyll template for this site comes from ["Millennial"](https://lenpaul.github.io/projects/millennial.html) by [Paul Le](https://www.lenpaul.com/). Over time I'll continue to modify/hack it, but that's the base I'm starting from. It's simple, attractive, and puts the content first with no BS, which was always my goal with If We Assume "Classic".
 
-![](https://2.bp.blogspot.com/-KtJq1gGDoqY/UHTVqnFxfAI/AAAAAAAAA3U/l68dhHfqWEA/s1600/tri.png)
+<img src="https://2.bp.blogspot.com/-KtJq1gGDoqY/UHTVqnFxfAI/AAAAAAAAA3U/l68dhHfqWEA/s1600/tri.png" width="100%">
 You can STILL find the old site, with all the classic content: [ifweassume.blogspot.com](http://ifweassume.blogspot.com). I'm choosing not to move/transfer stuff because it still works there.
 
 
