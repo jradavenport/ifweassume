@@ -25,9 +25,35 @@ permalink: 404.html
 
 <script type="text/javascript">
     var urltest = document.location.href;
-    if (urltest == 'http://www.ifweassume.com/2019/06/10-years-of-my-digital-life.html') {
-        window.location.replace = "http://www.ifweassume.blogspot.com/2019/06/10-years-of-my-digital-life.html";
+    var url_split = urltest.split("ifweassume.com", 2);
+    if (url_split.length > 1) {
+        if (url_split[1].toLowerCase().includes('2019/06/10-years-of-my-digital-life')) {
+            window.location.replace = "https://ifweassume.blogspot.com/2019/06/10-years-of-my-digital-life.html";
+        };
+        if (url_split[1].toLowerCase().includes('2019/06/how-much-are-professors-paid')) {
+            window.location.replace = "https://ifweassume.blogspot.com/2019/06/how-much-are-professors-paid.html";
+        };
+        if (url_split[1].toLowerCase().includes('2014/07/better-living-through-data')) {
+            window.location.replace = "https://ifweassume.blogspot.com/2014/07/better-living-through-data.html";
+        };
+        if (url_split[1].toLowerCase().includes('2014/12/volcanoes-of-world')) {
+            window.location.replace = "https://ifweassume.blogspot.com/2014/12/volcanoes-of-world.html";
+        };
+        if (url_split[1].toLowerCase().includes('2019/05/graphs-of-thrones')) {
+            window.location.replace = "https://ifweassume.blogspot.com/2019/05/graphs-of-thrones.html";
+        };
+        if (url_split[1].toLowerCase().includes('2012/10/the-united-states-of-starbucks')) {
+            window.location.replace = "https://ifweassume.blogspot.com/2012/10/the-united-states-of-starbucks.html";
+        };
+        if (url_split[1].toLowerCase().includes('2013/08/the-de-evolution-of-my-laptop-battery')) {
+            window.location.replace = "https://ifweassume.blogspot.com/2013/08/the-de-evolution-of-my-laptop-battery.html";
+        };
+        if (url_split[1].toLowerCase().includes('2012/10/book-covers')) {
+            window.location.replace = "https://ifweassume.blogspot.com/2012/10/book-covers.html";
+        };
+
     };
+
 </script>
 
 </div>
