@@ -27,7 +27,7 @@ permalink: 404.html
     var urltest = document.location.href;
     var url_split = urltest.split("ifweassume.com", 2);
     var newbase = "https://ifweassume.blogspot.com";
-    if (url_split.length > 1) {
+    if (url_split.length > 0) {
         if (url_split[1].toLowerCase().includes('2019/06/10-years-of-my-digital-life')) {
             window.location.replace = "https://ifweassume.blogspot.com/2019/06/10-years-of-my-digital-life.html";
         }
@@ -43,7 +43,7 @@ permalink: 404.html
         if (url_split[1].toLowerCase().includes('2019/05/graphs-of-thrones')) {
             window.location.replace = "https://ifweassume.blogspot.com/2019/05/graphs-of-thrones.html";
         }
-        if (url_split[1].includes('2012/10/the-united-states-of-starbucks')) {
+        if url_split[1].includes('2012/10/the-united-states-of-starbucks') {
             window.location.replace = newbase + url_split[1];
         }
         if (url_split[1].toLowerCase().includes('2013/08/the-de-evolution-of-my-laptop-battery')) {
