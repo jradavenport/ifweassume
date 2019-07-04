@@ -8,17 +8,18 @@ permalink: 404.html
   <h1> <i class="fa fa-terminal"></i> 404 </h1>
 
 
-<b>If We Assume</b> has recently changed servers. If you are trying to find an
-old post, your requested URL might be on the <a href="http://ifweassume.blogspot.com/">old site.</a><p>
+<b>If We Assume</b> has recently changed servers. I've tried to redirect most old posts automagically... but it's not perfect.
+<p>
 
 <!-- <i class="fa fa-external-link"></i> -->
 <script type="text/javascript">
     var urltest = document.location.href;
-    document.write("You tried: " +encodeURI(urltest)+"<br>" );
-    var url_split = urltest.split(".com", 2);
-    var new_url = url_split[0] + ".blogspot.com"+url_split[1];
-
-    document.write("Maybe this works? " + new_url.link(new_url));
+    var url_split = urltest.split("ifweassume.com", 2);
+    if (url_split.length > 1) {
+        var new_url = "https://ifweassume.blogspot.com"+url_split[1];
+        document.write("You tried: " +encodeURI(urltest)+"<br>" );
+        document.write("<b>Maybe this works? " + new_url.link(new_url) + "</b>");
+    }
 </script>
 
 
