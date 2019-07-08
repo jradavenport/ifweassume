@@ -4,6 +4,33 @@ title: "404: Page not found"
 permalink: 404.html
 ---
 
+
+<script type="text/javascript">
+    var urltest = document.location.href;
+    var url_split = urltest.split("ifweassume.com", 2);
+    if (url_split.length > 1) {
+        var new_url = "https://ifweassume.blogspot.com"+url_split[1];
+
+        // This should be a giant array of all old blog posts for the redirect
+        var old_posts = ['2019/06/10-years-of-my-digital-life',
+                         '2019/06/how-much-are-professors-paid',
+                         '2014/07/better-living-through-data',
+                         '2014/12/volcanoes-of-world',
+                         '2019/05/graphs-of-thrones',
+                         '2012/10/the-united-states-of-starbucks',
+                         '2013/08/the-de-evolution-of-my-laptop-battery',
+                         '2012/10/book-covers'];
+
+        for (var i = 0, len = old_posts.length; i < len; ++i) {
+            if (url_split[1].toLowerCase().includes(old_posts[i])) {
+                // the ugly redirect... sorry Google, please pretend this is 301.
+                window.location = new_url;
+            };
+        };
+    };
+</script>
+
+
 <div>
   <h1> <i class="fa fa-terminal"></i> 404 </h1>
 
@@ -11,7 +38,6 @@ permalink: 404.html
 <b>If We Assume</b> has recently changed servers. I've tried to redirect most old posts automagically... but it's not perfect.
 <p>
 
-<!-- <i class="fa fa-external-link"></i> -->
 <script type="text/javascript">
     var urltest = document.location.href;
     var url_split = urltest.split("ifweassume.com", 2);
@@ -19,43 +45,8 @@ permalink: 404.html
         var new_url = "https://ifweassume.blogspot.com"+url_split[1];
         document.write("You tried: " +encodeURI(urltest)+"<br>" );
         document.write("<b>Maybe this works? " + new_url.link(new_url) + "</b>");
-    }
+    };
 </script>
 
-
-<script type="text/javascript">
-    var urltest = document.location.href;
-    var url_split = urltest.split("ifweassume.com", 2);
-    var newbase = "https://ifweassume.blogspot.com";
-    if (url_split.length > 0) {
-        document.write(“in here ok”);
-        if (url_split[1].toLowerCase().includes('2019/06/10-years-of-my-digital-life')) {
-            window.location.replace = "https://ifweassume.blogspot.com/2019/06/10-years-of-my-digital-life.html";
-        }
-        if (url_split[1].toLowerCase().includes('2019/06/how-much-are-professors-paid')) {
-            window.location.replace = "https://ifweassume.blogspot.com/2019/06/how-much-are-professors-paid.html";
-        }
-        if (url_split[1].toLowerCase().includes('2014/07/better-living-through-data')) {
-            window.location.replace = "https://ifweassume.blogspot.com/2014/07/better-living-through-data.html";
-        }
-        if (url_split[1].toLowerCase().includes('2014/12/volcanoes-of-world')) {
-            window.location.replace = "https://ifweassume.blogspot.com/2014/12/volcanoes-of-world.html";
-        }
-        if (url_split[1].toLowerCase().includes('2019/05/graphs-of-thrones')) {
-            window.location.replace = "https://ifweassume.blogspot.com/2019/05/graphs-of-thrones.html";
-        }
-        if url_split[1].toLowerCase().includes('2012/10/the-united-states-of-starbucks') {
-            document.write(“yes”);
-            window.location.replace = newbase + url_split[1];
-        }
-        if (url_split[1].toLowerCase().includes('2013/08/the-de-evolution-of-my-laptop-battery')) {
-            window.location.replace = "https://ifweassume.blogspot.com/2013/08/the-de-evolution-of-my-laptop-battery.html";
-        }
-        if (url_split[1].toLowerCase().includes('2012/10/book-covers')) {
-            window.location.replace = "https://ifweassume.blogspot.com/2012/10/book-covers.html";
-        }
-    }
-
-</script>
 
 </div>
