@@ -15,7 +15,7 @@
 .featured-posts h2 span {
    display: inline-block;
    color: white;
-   font: bold 24px/45px Helvetica, Sans-Serif;
+   font: bold 24px/45px Roboto, Sans-Serif;
    letter-spacing: -1px;
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
@@ -53,4 +53,20 @@
 }
 .pagination-active:hover {
   background-color: #e0e0e0;
+}
+
+
+.button_go {
+  background-color: #e7e7e7;
+  color: black;
+  border: none;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: $body-font-family;
+}
+.button_go:hover {
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }

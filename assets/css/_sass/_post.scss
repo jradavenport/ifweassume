@@ -8,9 +8,15 @@
 }
 .post-date {
   display: block;
+  width: 40vw;
+  align: middle;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 1rem;
   color: #9a9a9a;
   font-size:0.8rem;
+  line-height: 1.2;
+  font-style: italic;
 }
 .featured-image img {
   align: middle;
