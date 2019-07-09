@@ -8,7 +8,10 @@ layout: default
   </h1>
 
   <span class="post-date">
-    {{ site.data.settings.post_date_prefix }}
+    {% if page.readtime %}
+        This post is a  {{page.readtime}}  read.
+    {% endif %}
+    <!-- {{ site.data.settings.post_date_prefix }}
     {% assign d = page.date | date: "%-d"  %}
     {{ page.date | date: "%B" }}
     {% case d %}
@@ -22,7 +25,7 @@ layout: default
       {{ page.author }}
     {% else %}
       {{ site.author }}
-    {% endif %}
+    {% endif %} -->
   </span>
 
   {% if page.image %}
