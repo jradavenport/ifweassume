@@ -10,6 +10,7 @@ readtime:  <i class="fa fa-bus"></i> minute
 
 
 ## #MotivationMonday
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Are you a grad student who publishes creative stuff online? Has a side hobby/band/interest/gig? GOOD! <br>I want you to know that the world needs people like you, and that you CAN be an academic AND a creative!<br>[thread]</p>&mdash; James Davenport (@jradavenport) <a href="https://twitter.com/jradavenport/status/1140772056625119232?ref_src=twsrc%5Etfw">June 18, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 A short manifesto today: Are you a grad student who publishes creative stuff online? Have a side hobby/band/interest/gig? GOOD! I want you to know the world needs people like you, and you CAN be an academic AND a creative.
 
