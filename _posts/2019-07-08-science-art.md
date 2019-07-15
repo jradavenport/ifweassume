@@ -3,7 +3,7 @@ layout: post
 title: Science and Art Belong Together
 categories: blog
 tags: [blog, astronomy, science, creativity, motivation]
-image: dome.JPG
+image: /assets/img/dome.JPG
 readtime:  <i class="fa fa-bus"></i> minute
 ---
 
