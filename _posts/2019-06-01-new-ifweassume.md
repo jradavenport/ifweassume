@@ -3,7 +3,7 @@ layout: post
 title: A New If We Assume
 categories: blog
 tags: [blog]
-image: /assets/img/VLA.jpeg
+image: /assets/img/tate.jpeg
 ---
 
 After seven wonderful years of blogging on the old website, it's time for a facelift. This has come about because A) I finally had the mental capacity to work on this for a few days, and B) my daily work flow and skillset has evolved! Let's unpack the latter for a minute...
